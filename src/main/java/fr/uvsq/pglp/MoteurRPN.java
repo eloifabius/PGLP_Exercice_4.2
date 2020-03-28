@@ -12,6 +12,10 @@ public class MoteurRPN {
     private static ArrayList<Double> variableValues = new ArrayList<Double>();
     private static Stack<Double> operationStack = new Stack<Double>();
 
+    public void MoteurRPN(){
+        System.out.println("calculatrice RPN");
+    }
+
 
     public static void evaluate(String s) {
 
